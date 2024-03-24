@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+/* nav bar */
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: white;
+    height: 70px;
+
+}
+
+.nav img {
+    height: 70px;
+    margin-right: auto;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav li {
+    padding: 0 20px;
+
+}
+
+/* --------------------------- */
+/* first sec */
+.firstSec {
+    background-color: whitesmoke;
+    text-align: center;
+    color: white;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+
+    margin-bottom: 90px;
+
+}
+
+.firstSec .text {
+    padding-top: 5%;
+}
+
+.firstSec button {
+    height: 60px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 4.5%;
+
+    color: white;
+}
+
+.firstSec .l {
+    background-color: rgb(158, 114, 83);
+    border: none;
+
+}
+
+.firstSec .c {
+    background: transparent;
+    border-color: white;
+}
+
+/* --------------------------- */
+/* second sec */
+.secSec {
+    margin-bottom: 80px;
+
+
+}
+
+.secSec img {
+    display: inline-block;
+    /* vertical-align:middle; */
+    width: 40%;
+    height: 100%;
+    padding: 2%;
+
+}
+
+.secSec .txt {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5%;
+    width: 50%;
+    height: 100%;
+
+}
+
+.secSec ul {
+    list-style: none;
+    display: inline-block;
+    padding: 20%;
+    /* margin-top: -400px;
+    margin-right: 300px; */
+
+
+
+}
+
+.secSec ul img {
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0.1px solid rgb(124, 124, 124);
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.secSec ul li {
+    padding: 10px;
+
+
+}
+
+/* --------------------------- */
+/* third sec */
+
+.thirdSec {
+    background-color: #f8f8f8;
+    padding: 20px;
+    height: 800px;
+
+
+    margin-bottom: 80px;
+}
+
+.thirdSec .txt {
+    display: inline-block;
+    /* vertical-align:middle; */
+    width: 47%;
+    /* padding: 30px;
+    padding-top: 12%; */
+
+
+}
+
+.thirdSec h2 {
+    color: #303030;
+}
+
+.thirdSec p {
+    color: #686868;
+}
+
+.thirdSec img {
+    width: 50%;
+    padding: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* --------------------------- */
+/* forth sec */
+.forthSec {}
+
+.forthSec .title {
+    text-align: center;
+}
+
+.forthSec .cards {
+    text-align: center;
+}
+
+.forthSec .card {
+    width: 30%;
+
+    display: inline-block;
+    padding: 3%;
+}
+
+.forthSec img {
+    width: 100%;
+}
+
+/* --------------------------- */
+
+/* section six */
+.secSix {
+    display: flow-root;
+    height: 750px;
+    padding: 3%;
+    background-color: #403d38;
+}
+
+.secSix h3 {
+    margin-bottom: 5%;
+    color: #fff;
+}
+
+.secSix p {
+    margin-bottom: 8%;
+    line-height: 300%;
+    font-size: x-small;
+}
+
+.secSix div {
+    padding: 1%;
+    float: left;
+    background-color: #403d38;
+    color: #9a9898;
+    width: 25%;
+}
+
+.secSix ul img {
+    width: 9%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.5%;
+}
+
+
+
+.secSix ul {
+    list-style: none;
+    display: inline-block;
+    padding: 2%;
+
+}
+
+.secSix li {
+    margin-bottom: 8%;
+    padding: 2%;
+    border-bottom: solid #686868 0.1px;
+    font-size: x-small;
+}
+
+.secSix .noborder {
+    border: none;
+}
+
+
+.secSix .sec4 {
+    background-image: url(/images/contact-details-map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+
+}
+
+
+
+
+/* last sec */
+.last {
+    text-align: center;
+    height: 300px;
+    background-color: #353330;
+    padding: 100px 0;
+    color: rgb(124, 124, 124);
+}
